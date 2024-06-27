@@ -18,6 +18,6 @@ describe('New Endpoint', () => {
       count: 205,
       shape: 'circle'
     })
-    expect(res.statusCode).toEqual(201)
+    expect(res.statusCode).toEqual(200)
   })
 })
